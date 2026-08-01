@@ -1,8 +1,29 @@
 aid: propagate-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/propagate-ventures.png
 name: Propagate Ventures
-description: Propagate Ventures is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Propagate (formerly Propagate Ventures) is a regenerative-agriculture company
+  founded in 2017 that helps farmland owners, farmers, and investors design,
+  plant, finance, and manage agroforestry and tree-crop systems. Its flagship
+  SaaS product, Overyield, lets farmers, developers, and investors model tree-crop
+  economics, choose crops, and design tree-crop systems that work alongside
+  existing farm operations. Propagate pairs the software with technical
+  assessments, site prep and planting services, improved tree genetics, and
+  ongoing project monitoring, and is a partner in the USDA Partnerships for
+  Climate-Smart Commodities. The company advises 30,000+ acres of agroforestry
+  supporting over 760,000 trees and shrubs. Propagate publishes no public API or
+  developer platform at this time.
 url: https://raw.githubusercontent.com/api-evangelist/propagate-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,22 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agriculture
+- Agroforestry
+- Regenerative Agriculture
+- Climate
+- Farm Software
+- SaaS
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +55,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/propagate-ventures-domain-security.yml
 - type: Website
-  url: https://propagateventures.com/
+  url: https://www.propagateag.com/
+- type: Blog
+  url: https://www.propagateag.com/blog
+- type: Support
+  url: https://intercom.help/overyield/
+- type: About
+  url: https://www.propagateag.com/about-us
+- type: SignUp
+  url: https://www.overyield.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/propagateag
