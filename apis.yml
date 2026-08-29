@@ -36,6 +36,9 @@ description: >-
   supporting over 760,000 trees and shrubs. Propagate publishes no public API or
   developer platform at this time.
 url: https://raw.githubusercontent.com/api-evangelist/propagate-ventures/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Propagate publishes no public API or developer platform at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
